@@ -1,0 +1,19 @@
+GUIA DE EJERCICIOS UNIDAD 5 (Tipos genericos)
+
+1) Generar una clase con generics que contenga un array como atributo y en base
+a este array implemente metodos para obtener la siguiente informacion :
+a) Verificar si un objeto existe en el array
+b) Devolver el máximo
+c) Devolver el mínimo
+Recordar que para poder comparar dos objetos, la clase del objeto debe
+implementar la interfaz Comparable
+
+2) Agregar un metodo para eliminar el ultimo objeto del array y lo devuelva por
+parametro (Investigar la clase Arrays).
+
+3) Implementar con generics la clase Pila que simule una Pila de datos con los
+siguientes metodos:
+push : Agrega un elemento a la Pila
+pop : Tomar el primer elemento de la pila y lo devuelve
+size : Cuenta la cantidad de elementos que hay en la Pila
+Recomendación : Utilizar como base la clase Nodo de la ListaLigada.
